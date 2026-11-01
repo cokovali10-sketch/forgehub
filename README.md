@@ -10,10 +10,10 @@
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](#tests)
-[![Modules](https://img.shields.io/badge/modules-5-a78bfa)](#modules)
-[![Playbooks](https://img.shields.io/badge/playbooks-8-38bdf8)](#knowledge)
-[![Tools](https://img.shields.io/badge/tools-7-22c55e)](#tools)
+[![Tests](https://img.shields.io/badge/tests-25%20passing-brightgreen)](#tests)
+[![Modules](https://img.shields.io/badge/modules-8-a78bfa)](#modules)
+[![Playbooks](https://img.shields.io/badge/playbooks-22-38bdf8)](#knowledge)
+[![Tools](https://img.shields.io/badge/tools-10-22c55e)](#tools)
 [![Deps](https://img.shields.io/badge/core%20deps-zero-orange)](#architecture)
 
 </div>

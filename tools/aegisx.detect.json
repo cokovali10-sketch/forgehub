@@ -1,0 +1,7 @@
+{
+  "id": "aegisx.detect",
+  "name": "Detect threats",
+  "module": "aegisx",
+  "description": "Detect threats using honeypots, eBPF and AI scoring.",
+  "tags": ["xdr", "detection", "ai"]
+}

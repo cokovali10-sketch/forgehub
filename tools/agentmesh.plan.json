@@ -1,0 +1,7 @@
+{
+  "id": "agentmesh.plan",
+  "name": "Plan task",
+  "module": "agentmesh",
+  "description": "Break a task into subtasks and assign to agents.",
+  "tags": ["agents", "planning"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "apexguard.scan",
+  "name": "Endpoint scan",
+  "module": "apexguard",
+  "description": "Scan endpoints for threats using eBPF and AI deception.",
+  "tags": ["edr", "security", "ebpf"]
+}

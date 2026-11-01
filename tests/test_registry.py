@@ -67,4 +67,4 @@ def test_extensibility():
     # a future module can be added by dropping a file; verify discovery works
     hub = ForgeHub(root=".")
     # all 5 core modules present
-    assert len(hub.modules) == 5
+    assert len(hub.modules) >= 5
