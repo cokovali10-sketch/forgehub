@@ -1,0 +1,7 @@
+{
+  "id": "forge.scan",
+  "name": "Security scan",
+  "module": "forge",
+  "description": "Run SAST/DAST/SBOM scans on a codebase. Policy enforcement + audit trail.",
+  "tags": ["security", "sast", "dast", "sbom"]
+}

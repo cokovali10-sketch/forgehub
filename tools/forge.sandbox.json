@@ -1,0 +1,7 @@
+{
+  "id": "forge.sandbox",
+  "name": "Isolated execution",
+  "module": "forge",
+  "description": "Run untrusted code in a sandbox (setrlimit on Linux, Job Objects on Windows). Timeout, stdin, capped output.",
+  "tags": ["sandbox", "execution", "security"]
+}

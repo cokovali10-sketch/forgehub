@@ -1,0 +1,7 @@
+{
+  "id": "solar.optimize",
+  "name": "Full optimization pipeline",
+  "module": "solar",
+  "description": "Run the full SOLAR pipeline: context + compression + cache + routing + budget. Returns optimized messages + report.",
+  "tags": ["pipeline", "tokens"]
+}

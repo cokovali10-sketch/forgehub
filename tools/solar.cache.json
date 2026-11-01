@@ -1,0 +1,7 @@
+{
+  "id": "solar.cache",
+  "name": "Semantic cache lookup/store",
+  "module": "solar",
+  "description": "Look up or store a cached LLM response by semantic similarity. Safe mode requires matching context fingerprint.",
+  "tags": ["cache", "tokens"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "qorvex.verify",
+  "name": "Verify code",
+  "module": "qorvex",
+  "description": "Verify AI-generated code with policy engine, audit trail, SBOM and report export.",
+  "tags": ["verification", "security", "policy"]
+}

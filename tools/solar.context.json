@@ -1,0 +1,16 @@
+{
+  "id": "solar.context",
+  "name": "Build context bundle",
+  "module": "solar",
+  "description": "Select relevant project files within a token budget, with dependency summaries, git diff and structure.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string" },
+      "root": { "type": "string" },
+      "budget_tokens": { "type": "integer" }
+    },
+    "required": ["query"]
+  },
+  "tags": ["context", "files"]
+}

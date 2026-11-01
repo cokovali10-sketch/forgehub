@@ -1,0 +1,28 @@
+{
+  "id": "solar.compress",
+  "name": "Compress text",
+  "module": "solar",
+  "description": "Compress a prompt or text, protecting code/ids/paths/numbers/quotes. Returns compressed text + token counts + integrity status.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "text": { "type": "string" },
+      "level": { "type": "string", "enum": ["conservative", "balanced", "aggressive"] },
+      "role": { "type": "string", "enum": ["user", "assistant", "system"] }
+    },
+    "required": ["text"]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "compressed": { "type": "string" },
+      "original_tokens": { "type": "integer" },
+      "compressed_tokens": { "type": "integer" },
+      "savings_pct": { "type": "number" },
+      "integrity_ok": { "type": "boolean" }
+    }
+  },
+  "safety": ["Never rewrites code, identifiers, paths, numbers or quoted literals"],
+  "example": "solar compress --level balanced",
+  "tags": ["compression", "tokens"]
+}
